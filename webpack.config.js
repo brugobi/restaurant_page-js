@@ -37,7 +37,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        user: {
+        use: {
           loader: 'babel-loader',
           options: {
             presets: ['@babel-preset-env']
