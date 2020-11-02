@@ -2,10 +2,10 @@ const path = require('path');
 const HtmllWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-module.experts = {
+module.exports = {
   entry: "./src/js/index.js",
   output: {
-    filename: "main.js"
+    filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
   plugins: [
@@ -22,7 +22,7 @@ module.experts = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          MiniCssExtractPlugin.loader[Symbol],
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader'
         ]
@@ -30,7 +30,7 @@ module.experts = {
       {
         test: /\.css$/i,
         use: [
-          'style-loader'
+          'style-loader',
           'css-loader'
         ]
       },
