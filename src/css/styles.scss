@@ -6,4 +6,9 @@ $theme-colors: (
 
 
 
+.nav {
+  height: 25vh;
+  background-color: gray;
+}
+
 @import "~bootstrap/scss/bootstrap";
