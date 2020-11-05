@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmllWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FileLoader = require('file-loader');
 
 module.exports = {
   entry: "./src/js/index.js",
@@ -42,6 +43,13 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env']
           }
+        }
+      },
+      {
+        test: /\.(png|svg|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+            name: '[name].[ext]'
         }
       }
     ]

@@ -4,11 +4,17 @@ $theme-colors: (
   "red": $red
 );
 
-
-
 .nav {
-  height: 25vh;
+  height: 15vh;
   background-color: gray;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.img-barbecue {
+  width: 100%;
 }
 
 @import "~bootstrap/scss/bootstrap";
