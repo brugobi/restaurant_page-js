@@ -5,6 +5,6 @@ import navBar from './navBar';
 import home from './home';
 
 navBar();
-home();
+//home();
 
 console.log('Hello');

@@ -20,6 +20,7 @@ const home = () => {
   img.setAttribute('src', barbecue);
   img.setAttribute('alt', 'barbecue');
   divImg.appendChild(img);
+
   const startDiv = document.getElementById('content');
   startDiv.appendChild(container);
 };
