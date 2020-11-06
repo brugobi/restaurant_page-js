@@ -7,6 +7,6 @@ import contact from './contact';
 
 navBar();
 //home();
-contact();
+//contact();
 
 console.log('Hello');
