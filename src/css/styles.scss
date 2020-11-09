@@ -4,9 +4,20 @@ $theme-colors: (
   "red": $red
 );
 
+header p {
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: 'Rubik Mono One', sans-serif;
+  background: -webkit-linear-gradient(red, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .nav {
   height: 15vh;
-  background-color: gray;
+  background-color: black;
+  
 }
 
 .container-fluid {
@@ -24,5 +35,5 @@ $theme-colors: (
 .card-img {
   height: 100%;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import "~bootstrap/scss/bootstrap";
