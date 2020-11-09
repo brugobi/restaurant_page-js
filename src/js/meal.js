@@ -36,3 +36,5 @@ const meals = [
     price: "$6",
   },
 ];
+
+export default meals;
