@@ -20,4 +20,9 @@ $theme-colors: (
 .card {
   max-width: 540px;
 }
+
+.card-img {
+  height: 100%;
+}
+
 @import "~bootstrap/scss/bootstrap";

@@ -2,7 +2,7 @@ const meals = [
   {
     img: "https://cdn.pixabay.com/photo/2020/06/17/21/55/meat-5311302_960_720.jpg",
     title: "Picanha",
-    text: "web developer",
+    text: "picanha barbecue accompanied by rice and potatoes",
     price: "$40",
   },
   {
