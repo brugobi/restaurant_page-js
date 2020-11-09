@@ -17,4 +17,7 @@ $theme-colors: (
   width: 100%;
 }
 
+.card {
+  max-width: 540px;
+}
 @import "~bootstrap/scss/bootstrap";
