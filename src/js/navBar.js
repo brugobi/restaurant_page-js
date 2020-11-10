@@ -51,12 +51,12 @@ const navBar = () => {
         navBar();
         contact();
       });
-    }; 
+    }
   });
-  
+
   divList.appendChild(ul);
   navContainer.appendChild(divList);
-  startDiv.appendChild(navContainer); 
+  startDiv.appendChild(navContainer);
 };
 
 export default navBar;

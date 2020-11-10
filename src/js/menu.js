@@ -10,7 +10,6 @@ const menu = () => {
   container.appendChild(divContentMenu);
 
   MEAL.forEach(meals => {
-
     const mealContainer = document.createElement('div');
     mealContainer.classList.add('p-2', 'col-md-6', 'bd-highlight', 'text-center');
     divContentMenu.appendChild(mealContainer);
@@ -54,10 +53,9 @@ const menu = () => {
     price.innerHTML = meals.price;
     cardPrice.appendChild(price);
   });
-  
+
   const startDiv = document.getElementById('content');
   startDiv.appendChild(container);
-  
 };
 
 export default menu;

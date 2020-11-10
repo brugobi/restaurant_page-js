@@ -1,8 +1,5 @@
-$red: red;
-
-$theme-colors: (
-  "red": $red
-);
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import "~bootstrap/scss/bootstrap";
 
 header p {
   padding-right: 20px;
@@ -38,5 +35,3 @@ header p {
 .card-img {
   height: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import "~bootstrap/scss/bootstrap";

@@ -69,7 +69,7 @@ const contact = () => {
   const msgDiv = document.createElement('div');
   formTag.appendChild(msgDiv);
   const msgLabel = document.createElement('label');
-  msgLabel.innerHTML = "Message";
+  msgLabel.innerHTML = 'Message';
   msgDiv.appendChild(msgLabel);
   const inputMsg = document.createElement('input');
   inputMsg.classList.add('form-control');
@@ -100,7 +100,6 @@ const contact = () => {
   const startDiv = document.getElementById('content');
   startDiv.appendChild(container);
   container.appendChild(contactDiv);
-  
 };
 
 export default contact;
