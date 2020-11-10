@@ -1,3 +1,7 @@
+import home from './home';
+import contact from './contact';
+import menu from './menu';
+
 const navBar = () => {
   const startDiv = document.getElementById('content');
   const navContainer = document.createElement('nav');
@@ -31,10 +35,31 @@ const navBar = () => {
     anchor.textContent = link;
     node.appendChild(anchor);
     ul.appendChild(node);
+
+    if (anchor.textContent === 'Home') {
+      anchor.addEventListener('click', () => {
+        startDiv.innerHTML = '';
+        navBar();
+        home();
+      });
+    } else if (anchor.textContent === 'Menu') {
+      anchor.addEventListener('click', () => {
+        startDiv.innerHTML = '';
+        navBar();
+        menu();
+      });
+    } else if (anchor.textContent === 'Contact') {
+      anchor.addEventListener('click', () => {
+        startDiv.innerHTML = '';
+        navBar();
+        contact();
+      });
+    }; 
   });
+  
   divList.appendChild(ul);
   navContainer.appendChild(divList);
-  startDiv.appendChild(navContainer);
+  startDiv.appendChild(navContainer); 
 };
 
 export default navBar;
