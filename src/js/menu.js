@@ -6,7 +6,7 @@ const menu = () => {
   const container = document.createElement('div');
   container.classList.add('container-fluid');
   const divContentMenu = document.createElement('div');
-  divContentMenu.classList.add('d-flex', 'hv-100', 'justify-content-center', 'align-items-center', 'flex-wrap');
+  divContentMenu.classList.add('d-flex', 'flex-wrap');
   container.appendChild(divContentMenu);
 
   MEAL.forEach(meals => {
