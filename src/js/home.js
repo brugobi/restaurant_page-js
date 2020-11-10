@@ -4,7 +4,7 @@ const home = () => {
   const container = document.createElement('div');
   container.classList.add('container-fluid');
   const divContent = document.createElement('div');
-  divContent.classList.add('row', 'vh-100', 'bg-ligth', 'justify-content-center', 'align-items-center');
+  divContent.classList.add('row', 'container', 'bg-ligth', 'justify-content-center', 'align-items-center');
   container.appendChild(divContent);
   const divCol = document.createElement('div');
   divCol.classList.add('col-7');

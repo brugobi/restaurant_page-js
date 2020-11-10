@@ -3,7 +3,7 @@ const contact = () => {
   container.classList.add('container-fluid');
 
   const contactDiv = document.createElement('div');
-  contactDiv.classList.add('row', 'vh-100', 'justify-content-center', 'align-items-center', 'text-white-50');
+  contactDiv.classList.add('row', 'container', 'justify-content-center', 'align-items-center', 'text-white-50');
 
   const formTag = document.createElement('form');
   formTag.classList.add('col-6');
@@ -99,11 +99,8 @@ const contact = () => {
 
   const startDiv = document.getElementById('content');
   startDiv.appendChild(container);
-
-  //nameDiv.innerHTML = 'testeeeeeee';
   container.appendChild(contactDiv);
   
-  // container.appendChild(contactDiv);
 };
 
 export default contact;

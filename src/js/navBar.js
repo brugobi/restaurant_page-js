@@ -6,12 +6,9 @@ const navBar = () => {
   const startDiv = document.getElementById('content');
   const navContainer = document.createElement('nav');
   navContainer.classList.add('navbar', 'navbar', 'navbar-expand-lg', 'navbar-dark', 'bg-dark');
-  // navContainer.innerHTML = '<p>HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>';
   const navButton = document.createElement('button');
   navButton.classList.add('navbar-toggler');
   navContainer.appendChild(navButton);
-  //const myAtrr = { "type" : "button", "data-toggle" : "collapse", "data-target" : "#navbarNav", "aria-label" : "Toggle navigation", "aria-controls" : "navbarNav", "aria-expanded" : "false"  };
-  //Object.assign(navButton.setAttribute, myAtrr);
   navButton.setAttribute('type', 'button');
   navButton.setAttribute('data-toggle', 'collapse');
   navButton.setAttribute('data-target', '#navbarNav');
