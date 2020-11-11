@@ -13,6 +13,7 @@
 - JavaScript
 - Node.js
 - Webpack
+- Babel
 - Bootstrap 4
 - SCSS
 - HTML
