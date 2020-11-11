@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+header p {
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: 'Rubik Mono One', sans-serif;
+  background: -webkit-linear-gradient(red, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav {
+  height: 25vh;
+  background-image: linear-gradient(to top, #eb0e0e, #963d00, #513800, #232400, #030402);
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.container {
+  height: 69vh;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.img-barbecue {
+  width: 100%;
+}
+
+.card {
+  max-width: 540px;
+}
+
+.card-img {
+  height: 100%;
+}
