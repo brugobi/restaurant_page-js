@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-- You can click on this [link](https://raw.githack.com/brugobi/restaurant_page-js/feature/dist/index)
+- You can click on this [link](https://rawcdn.githack.com/brugobi/restaurant_page-js/27e56768c0337ec913a0ebabe2af77c50b798500/dist/index.html)
 
 ## Getting Started
 
