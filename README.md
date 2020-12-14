@@ -1,6 +1,6 @@
 # restaurant_page-js
 
-> This is a responsive Restaurant page builded with entire JavaScript.
+> This is a responsive Restaurant page built with entire JavaScript.
 
 ## Feature
 
